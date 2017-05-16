@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mi aplicación</title>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+
+</head>
+
+<body>
+
+  <!-- La parte de header -->
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+          <img alt="Brand" src="http://www.cartadafinal.com/static/images-tiago/front-page/marca-truco.png" width="60" height="30">
+        </a>
+      </div>
+    </div>
+
+    <!-- Donde se ponen los botones del inicio -->
+
+    <ul class="nav nav-pills">
+      <li role="presentation" class="active"><a href="http://dise-o-web-alfonsonugu428617.codeanyapp.com/indexHome.html">Inicio <span class="glyphicon glyphicon-home"></span></a></li>
+      <li role="presentation"><a href="http://dise-o-web-alfonsonugu428617.codeanyapp.com/indexPerfil.html">Perfil  <span class="glyphicon glyphicon-user"></span></a></li>
+      <li role="presentation"><a href="http://dise-o-web-alfonsonugu428617.codeanyapp.com/indexCrearTruco.html">Agregar Truco <span class="glyphicon glyphicon-book"></span> </a></li>
+    </ul>
+  </nav>
+
+  <!-- Aqui la parte de categoria -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2">
+        <ul class="nav nav-pills nav-stacked navbar-inverse">
+          <li role="presentation"><a href="#">Acción</a> </li>
+          <li role="presentation"><a href="#">Lucha</a> </li>
+          <li role="presentation"><a href="#">Beat 'em up</a>
+            <li role="presentation"><a href="#">Shooter</a>
+              <li role="presentation"><a href="#">Estrategia</a>
+                <li role="presentation"><a href="#">Simulación</a>
+                  <li role="presentation"><a href="#">Deporte</a>
+                    <li role="presentation"><a href="#">Carreras</a>
+        </ul>
+      </div>
+
+      <!-- Donde van los encabezados -->
+    <div class="row">
+      <div class="col-md-8 bg-info">
+        <div class="row">
+          <h2 class="titulo-seccion">  Crear Truco </h2>
+          <img title="imagen" src="data:image/png;base64,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"
+            width="1250" height="200" alt="">
+        </div>
+        <div class="col-md-12 bg-info">
+          <div class="row"></div>
+        </div>  
+        
+        <div class="col-md-6 bg-info">
+          <div class="row">
+            <h3 class="titulo-seccion">  Donde </h3>
+            <textarea class="form-control" rows="3"></textarea>
+          </div>
+
+          <div class="row">
+            <h3 class="titulo-seccion">  Cuando </h3>
+            <textarea class="form-control" rows="3"></textarea>
+          </div>
+
+          <div class="row">
+            <h3 class="titulo-seccion">  Como </h3>
+            <textarea class="form-control" rows="3"></textarea>
+          </div>
+        </div>
+
+
+        <div class="col-md-6 bg-info">
+          <div class="row">
+            <img src="https://i2.wp.com/hipertextual.com/archivo/wp-content/uploads/2013/08/secuelas-de-juegos-m%C3%B3viles-plants-vs-zombies-2.jpg?resize=600%2C370&ssl=1" title="imagen del truco" alt="" class="img-rounded">
+            <br>
+            <br>
+            <br>
+            <input  type="text" class="form-control" placeholder="Codigo" "text-center" >
+          </div>
+        </div>
+
+        <div class="row">
+          <p>
+            <button href="http://dise-o-web-alfonsonugu428617.codeanyapp.com/indexHome.html"type="button" class="btn btn-default btn-lg" "centrado" "centradoV">Crear Truco</button>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+<footer>
+<div class="row">
+<div class="col-md-12">
+
+</div>
+</div>
+
+<footer>
+<div class="container-fluid">
+<p class="pull-right">REDES </p>
+</div>
+</footer>
+
+</body>
+
+</html>

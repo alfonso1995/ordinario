@@ -1,0 +1,24 @@
+{
+  "name": "ipm",
+  "authors": [
+    "alfonso.nugu <alfonso.nugu@gmail.com>"
+  ],
+  "description": "Proyecto de practica para ver como usar el bower",
+  "main": "index.html",
+  "keywords": [
+    "practica"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "boostrap#^3.3.7"
+  }
+}
