@@ -1,0 +1,18 @@
+body{
+  background: url(../img/41E.webp);
+}
+
+.categorias {
+  background-color:#ffffff;
+}
+
+.tmg {
+  font-size: 40px;
+}
+.btn-mio{
+    border-radius: 0;
+    border:solid 2px;
+}
+.titulo-seccion{
+  font-family: 'Press Start 2P', cursive;
+}
