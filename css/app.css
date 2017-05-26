@@ -1,5 +1,9 @@
+html{
+  height: 100%;
+}
 body{
-  background: url(../img/41E.webp);
+  background: url(../img/41E.webp) repeat-x bottom left #256bcc;
+  height: 100%;
 }
 
 .categorias {
@@ -15,4 +19,36 @@ body{
 }
 .titulo-seccion{
   font-family: 'Press Start 2P', cursive;
+}
+
+.altura{
+  height: 100%;
+}
+
+div{
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.cancelarp{
+    padding: 0px;
+}
+
+.cuadro-blanco{
+  height: 400px;
+  width: 400px;
+  background-color:#ffffff;
+  
+}
+
+#tgi{
+  font-size: 30px;
+}
+
+#pi{
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
